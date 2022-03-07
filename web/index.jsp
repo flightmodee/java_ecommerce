@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>Bonjour à vous, ${client.getFirst_name()}, et bienvenue chez ESIEEcommerce !</h1>
-        <form action='cart.jsp'>
+        <form action='cart.jsp' method="POST">
             <input type='submit' value='Afficher le panier'>
         </form>
         <hr/>
@@ -21,7 +21,7 @@
         <div class="container">
             <div class="article" id='banana'>
                 
-                <form action='myServlet'>
+                <form action='myServlet' method="POST">
                     <p>Banane</p>
                     <input type='submit' value='Ajouter au panier'/>
                     <input type='hidden' name='article' value='Banane'/>
@@ -31,7 +31,7 @@
             </div>
             
             <div class="article" id="apple"> 
-                <form action='myServlet'>
+                <form action='myServlet' method="POST">
                     <p>Pomme</p>
                     <input type='submit' value='Ajouter au panier'/>
                     <input type='hidden' name='article' value='Pomme'/>
@@ -40,7 +40,7 @@
             </div>
             
             <div class="article" id='strawberries'>
-                <form action='myServlet'>
+                <form action='myServlet' method="POST">
                     <p>Fraise</p>
                     <input type='submit' value='Ajouter au panier'/>
                     <input type='hidden' name='article' value='Fraise'/>

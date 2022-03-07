@@ -21,7 +21,7 @@
         <h1>Bienvenue sur votre site e-commerce ! Connectez-vous</h1>
         <hr/>
         
-        <form action='myServlet' method='GET'>
+        <form action='myServlet' method='POST'>
             
             <label for='first_name'>Prénom:<label/>
             <input type='text' name='first_name'/> <br/>
